@@ -8,23 +8,23 @@ box-sizing: border-box;
 
 /*API weather styles*/
 .date {
-    font-size: 16px;
+    font-size: 41px;
+    text-align: center;
 }
 
 .current .temp {
-    font-size: 102px;
-}
-  
-.current .temp span {
-    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
 }
   
 .current .weather {
-    font-size: 32px;
+    font-size: 40px;
+    text-align: center;
 }
   
 .current .hi-low {
     font-size: 24px;
+    text-align: center;
 }
 
 
