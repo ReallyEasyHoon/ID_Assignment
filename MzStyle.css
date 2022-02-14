@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+* {
+box-sizing: border-box;
+}
+
+/*API weather styles*/
+.date {
+    font-size: 41px;
+    text-align: center;
+}
+
+.current .temp {
+    font-size: 40px;
+    text-align: center;
+}
+  
+.current .weather {
+    font-size: 40px;
+    text-align: center;
+}
+  
+.current .hi-low {
+    font-size: 24px;
+    text-align: center;
+}
+
+
