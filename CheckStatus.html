@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check your status</title>
+    <link rel="stylesheet" href="Style.css">
+    <style> 
+        #myDIV {
+          width: 100px;
+          height: 10px;
+          background: red;
+          position:relative;
+          animation: mymove 2s infinite;
+        }
+        
+        
+        @keyframes mymove {
+          from {left: 0px;}
+          to {left: 1500px;}
+        }
+        </style>
+
+
 </head>
 <body>
+    <script  src="./script.js"></script>
+    <nav>
+        <div>
+        <ul id="menu">
+            <li><a href="Index.html" >Home</a></li>
+            <li><a href="DeliveryParcel.html">DevlieryParcel</a></li>
+            <li><a href="CheckStatus.html">Check Status</a></li>
+            <li><a href="ContactMe.html">ContactMe</a></li>
+            
+        </ul>
+        <h1><center>Parcel Status</center></h1>
+        </div>
+    </nav>
+    <div id="myDIV"></div>
+    
+    <br>
+    
+        <input class="center-input" id="text_a" type="text"/>
+         <p id="Status" class="Status"></p>
+        <button class="center-input" onclick="myFunction()">Check</button>
+
     
 </body>
 </html>
