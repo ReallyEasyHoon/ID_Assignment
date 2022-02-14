@@ -15,7 +15,7 @@ function getResults (query) {
   
 function displayResults (weather) {
     let now = new Date();
-    let date = document.querySelector('.location .date');
+    let date = document.querySelector('.date');
     date.innerText = dateBuilder(now);
 
     let temp = document.querySelector('.current .temp');
@@ -25,7 +25,7 @@ function displayResults (weather) {
     weather_el.innerText = weather.weather[0].main;
 
     let hilow = document.querySelector('.hi-low');
-    hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+    hilow.innerText = `${Math.round(weather.main.temp_min)}°c - ${Math.round(weather.main.temp_max)}°c`;
 }
   
 function dateBuilder (d) {
