@@ -27,4 +27,21 @@ box-sizing: border-box;
     text-align: center;
 }
 
+.DPpage {
+    font-size: 24px;
+    text-align: center;
+}
+
+.DPpage:hover{
+    color: aqua;
+}
+
+.CSpage{
+    font-size: 24px;
+    text-align: center;
+}
+
+.CSpage:hover{
+    color: aqua;
+}
 
