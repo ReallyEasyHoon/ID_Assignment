@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliveryParcel</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <script  src="./script.js"></script>
+    <nav>
+        <div>
+        <ul id="menu">
+            <li><a href="Index.html" >Home</a></li>
+            <li><a href="DeliveryParcel.html">DevlieryParcel</a></li>
+            <li><a href="CheckStatus.html">Check Status</a></li>
+            <li><a href="ChangeStatus.html">Change Status</a></li>
+            
+        </ul>
+        
+        <video width="320" height="240" autoplay muted loop style="float: right;">
+            <source src="Parcel.mp4" type="video/mp4" >
+        </video>
+       
+
+        <h1><center>Change Parcel Status</center></h1>
+        <form action="CheckStatus.html">
+        <label for="fname">Parcel ID:</label>
+        <input type="text" id="fname" name="fname" maxlength="6" required><br><br>
+        <label for="Status">Status:</label>
+        <select name="Status" id="Status">
+        <option value="volvo">Parcel Pickup</option>
+        <option value="saab">Parcel in warehouse</option>
+        <option value="opel">Parcel out for delivery</option>
+        <option value="audi">Delivered</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+        
+</body>
+</html>

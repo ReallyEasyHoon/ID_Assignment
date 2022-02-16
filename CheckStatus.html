@@ -8,19 +8,7 @@
     <title>Check your status</title>
     <link rel="stylesheet" href="Style.css">
     <style> 
-        #myDIV {
-          width: 100px;
-          height: 10px;
-          background: red;
-          position:relative;
-          animation: mymove 2s infinite;
-        }
         
-        
-        @keyframes mymove {
-          from {left: 0px;}
-          to {left: 1500px;}
-        }
         </style>
 
 
@@ -33,20 +21,25 @@
             <li><a href="Index.html" >Home</a></li>
             <li><a href="DeliveryParcel.html">DevlieryParcel</a></li>
             <li><a href="CheckStatus.html">Check Status</a></li>
-            <li><a href="ContactMe.html">ContactMe</a></li>
+            <li><a href="ChangeStatus.html">Change Status</a></li>
             
         </ul>
         <h1><center>Parcel Status</center></h1>
         </div>
+        
     </nav>
     <div id="myDIV"></div>
     
     <br>
     
-        <input class="center-input" id="text_a" type="text"/>
+        <input class="center-input" id="text_a" type="text" maxlength="6" required/>
          <p id="Status" class="Status"></p>
         <button class="center-input" onclick="myFunction()">Check</button>
-
+        <center>
+        <video width="320" height="240" autoplay muted loop >
+            <source src="Parcel.mp4" type="video/mp4" >
+        </video>
+    </center>
     
 </body>
 </html>
