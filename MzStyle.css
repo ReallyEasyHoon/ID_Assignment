@@ -71,7 +71,8 @@ ul#menu li {
 }
 
 
-#images{
+#linkbox{
     display: flex;
     flex-wrap: nowrap;
 }
+
