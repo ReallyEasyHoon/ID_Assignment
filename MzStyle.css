@@ -69,3 +69,9 @@ ul#menu li {
 #menu a:hover, #menu a:active {
     background-color: rgb(93, 236, 165);
 }
+
+
+#images{
+    display: flex;
+    flex-wrap: nowrap;
+}
