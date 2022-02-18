@@ -12,11 +12,13 @@ Feature 2 - A live date creator to show user what the date is today.
 Feature 3 - Log in page that does not work yet, it is just a concept.
 Feature 4 - Seller/Deliveryman can update the parcel status 
 Feature 5 - User can check the current parcel status
+Featuer 6 - Seller will first need to fill up the informations on where the parcel wil be sent to.
 
 #Features left to implement
 - Have the weather API mean something(when the forecast is 'Raining', there will be a text that inform receivers that their parcel delivery time might be longer)
 - Functioning log in page if possible
-- 
+- get the user information from deliveryparcel and add it into checkstatus/changestatus so that user can check parcel id and seller can update the parcel status. 
+- Make it more flexible for all the information
 
 # Technologies used
 - API
@@ -27,8 +29,19 @@ This project uses jQuery to make the JavaScript easier to manage
 # Credits
 Media
 - The photos used in the homepage is taken from ''https://www.iconfinder.com/icons" 
+- The photo used in Delivery Parcel, CheckStatus and change status is from " https://www.cannypic.com/free-vector/vector-delivery-man-339491"
 
 Acknowledgements 
 - I received inspiration for this project from 'Build a Weather app using HTML, CSS & JavaScript in 2020' by Tyler Potts from YouTube.
+
+
+
+# Testing 
+-DeliveryParcel, checkstatus and change status althought u can see how the system works but, there is no implemntation on how we get informaton and display it out. Example, are like when seller fill in the informations, 
+
+1. DeliveryParcel try fill in the information if the information for phone number is not same format as the system an error will occur.
+2. CheckStatus if you leave the parcel id blank error will pop up telling you to fill information.
+3. Changestatus same thing as checkstatus.
+
 
 
