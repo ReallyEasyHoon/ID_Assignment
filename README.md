@@ -10,10 +10,13 @@ As a receiver, the app will inform me on the status of the parcel.
 Feature 1 - weather API to show users how the weather is today.
 Feature 2 - A live date creator to show user what the date is today.
 Feature 3 - Log in page that does not work yet, it is just a concept.
+Feature 4 - Seller/Deliveryman can update the parcel status 
+Feature 5 - User can check the current parcel status
 
 #Features left to implement
 - Have the weather API mean something(when the forecast is 'Raining', there will be a text that inform receivers that their parcel delivery time might be longer)
 - Functioning log in page if possible
+- 
 
 # Technologies used
 - API
