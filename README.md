@@ -43,5 +43,14 @@ Acknowledgements
 2. CheckStatus if you leave the parcel id blank error will pop up telling you to fill information.
 3. Changestatus same thing as checkstatus.
 
+- Log in page
+1. When user access the website they will see this page 
+2. User inputs their email and password
+3. Press log in to go to homepage (for now since log in does not work properly, there is a homepage button to bring)
 
+- Home page
+1. Try each button in navigation bar to ensure they are linked to the correct page
+2. Check if weather tab that shows today's date, current weather, current temperature and low-high temperature is working and accurate to the website it takes the data from
+3. Click on the first button to go to check status page
+4. Click on second button to go to deliveryparcel page
 
